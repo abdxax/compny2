@@ -1,0 +1,24 @@
+.logo-login{
+	display: block;
+	margin-right:  auto;
+	margin-left: auto;
+	margin-top: 60px;
+}
+.ar-button{
+	text-align: right;
+	margin-top:15px;
+}
+.cardx{
+	margin-top: 15px;
+}
+.en-button{
+	text-align: left;
+	margin-top:15px;
+}
+.ar-x{
+	margin-right: 300px;
+}
+.btns{
+	display: block;
+	margin:0 auto;
+}
