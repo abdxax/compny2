@@ -22,3 +22,14 @@
 	display: block;
 	margin:0 auto;
 }
+.x{
+	display: inline-block;
+}
+.card-heading{
+	display: block;
+	text-align: center;
+	font-size: 3em;
+}
+.card-body{
+	text-align: center;
+}

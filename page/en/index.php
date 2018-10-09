@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title></title>
-
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../../css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="../../css/style.css">
 </head>
@@ -13,20 +13,51 @@
 </header>
 
 <section>
-	<div class="conatiner">
-		<div class="col-4">
-			<div class="card border-light">
-				<div class="card-heading ">
-					ddd
+	<div class="container">
+		<div class="row">
+			<div class="col-4">
+				<div class="card">
+					<a href="addEmployee.php">
+						<div class="card-heading ">
+							<i class="fas fa-user"></i>
+						</div>
+						<div class="card-body">
+							Add new employee
+						</div>
+					</a>
 				</div>
 			</div>
-		</div>
-		<div class="col-4">
-			<div class="card border-light">
-				<div class="card-heading ">
-					ddd
+
+			<div class="col-4">
+				<div class="card">
+					<a href="machien.php">
+						<div class="card-heading ">
+							<i class="fas fa-industry"></i>
+
+						</div>
+						<div class="card-body">
+							Machien 
+						</div>
+					</a>
 				</div>
 			</div>
+
+        
+        <div class="col-4">
+				<div class="card">
+					<a href="maintenance.php">
+						<div class="card-heading ">
+							<i class="fas fa-wrench"></i>
+
+						</div>
+						<div class="card-body">
+							Maintenance 
+						</div>
+					</a>
+				</div>
+			</div>
+
+
 		</div>
 	</div>
 </section>
